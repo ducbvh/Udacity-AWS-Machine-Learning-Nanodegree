@@ -1,0 +1,167 @@
+[2024-10-29 05:07:18,573][my_logger][INFO]: - Namespace(s3_bucket='aws-ml-mycapstone-project', data='dataset-try', lambda_rec=1.2, lambda_adv=0.5, lambda_ssim=160, batch_size=8, num_epochs=210, epoch_updateD=15, learning_rate=0.5, model_dir='./weights/generator_20241028-173931.h5', output_dir='./exp_train', epoch_save_results=5, num_img_trains=10, load_retrain=True, save_cp_epoch=True, train_attention=False)
+[2024-10-29 05:07:18,574][my_logger][INFO]: - Hyperparameters are LR: 0.5, Batch Size: 8
+[2024-10-29 05:07:18,574][my_logger][INFO]: - S3 Bucket: aws-ml-mycapstone-project - Data Paths: dataset-try
+[2024-10-29 05:07:18,574][my_logger][INFO]: - Start load datasets...
+[2024-10-29 05:07:23,015][my_logger][INFO]: - Num Batch in trains: 2
+[2024-10-29 05:07:23,015][my_logger][INFO]: - Training in processing....
+[2024-10-29 05:07:23,015][my_logger][INFO]: - Train attention: False
+[2024-10-29 05:07:23,529][my_logger][INFO]: - Load Model: ./weights/generator_20241028-173931.h5
+[2024-10-29 05:07:25,083][my_logger][INFO]: - 
+Epoch 1/210
+Ony Update G!
+[2024-10-29 05:07:39,716][my_logger][INFO]: -   loss_total: 122.4546127319336 - loss_ssim: 0.7579219937324524 - loss_rec: 0.30326199531555176 - loss_discriminator: 1.6463541984558105
+[2024-10-29 05:07:39,717][my_logger][INFO]: -   val_loss: 146.69805908203125 - val_ssim: 0.9087742567062378 - val_rec: 0.39919981360435486 - val_Disc: 1.630272388458252
+[2024-10-29 05:07:39,717][my_logger][INFO]: -   Time taken: 14.63s
+[2024-10-29 05:07:40,734][my_logger][INFO]: - 
+Epoch 2/210
+Ony Update G!
+[2024-10-29 05:07:41,249][my_logger][INFO]: -   loss_total: 117.82635498046875 - loss_ssim: 0.7290459871292114 - loss_rec: 0.30354246497154236 - loss_discriminator: 1.6295037269592285
+[2024-10-29 05:07:41,250][my_logger][INFO]: -   val_loss: 145.70372009277344 - val_ssim: 0.9025816321372986 - val_rec: 0.3964743912220001 - val_Disc: 1.6297948360443115
+[2024-10-29 05:07:41,250][my_logger][INFO]: -   Time taken: 0.52s
+[2024-10-29 05:07:41,250][my_logger][INFO]: - 
+Epoch 3/210
+Ony Update G!
+[2024-10-29 05:07:41,764][my_logger][INFO]: -   loss_total: 115.53483581542969 - loss_ssim: 0.7147849798202515 - loss_rec: 0.2953501343727112 - loss_discriminator: 1.6296465396881104
+[2024-10-29 05:07:41,764][my_logger][INFO]: -   val_loss: 144.86831665039062 - val_ssim: 0.8973750472068787 - val_rec: 0.3944133520126343 - val_Disc: 1.6300230026245117
+[2024-10-29 05:07:41,764][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:41,764][my_logger][INFO]: - 
+Epoch 4/210
+Ony Update G!
+[2024-10-29 05:07:42,273][my_logger][INFO]: -   loss_total: 115.23585510253906 - loss_ssim: 0.7131441831588745 - loss_rec: 0.26418423652648926 - loss_discriminator: 1.6315255165100098
+[2024-10-29 05:07:42,273][my_logger][INFO]: -   val_loss: 144.1803741455078 - val_ssim: 0.893083930015564 - val_rec: 0.392977237701416 - val_Disc: 1.6307514905929565
+[2024-10-29 05:07:42,274][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:42,274][my_logger][INFO]: - 
+Epoch 5/210
+Ony Update G!
+[2024-10-29 05:07:42,786][my_logger][INFO]: -   loss_total: 113.09521484375 - loss_ssim: 0.699592649936676 - loss_rec: 0.28622981905937195 - loss_discriminator: 1.6338298320770264
+[2024-10-29 05:07:42,786][my_logger][INFO]: -   val_loss: 143.7572021484375 - val_ssim: 0.8904426097869873 - val_rec: 0.392219603061676 - val_Disc: 1.6314374208450317
+[2024-10-29 05:07:42,786][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:42,786][my_logger][INFO]: - 
+Epoch 6/210
+Ony Update G!
+[2024-10-29 05:07:43,292][my_logger][INFO]: -   loss_total: 109.43658447265625 - loss_ssim: 0.6768739223480225 - loss_rec: 0.27152490615844727 - loss_discriminator: 1.6218669414520264
+[2024-10-29 05:07:43,292][my_logger][INFO]: -   val_loss: 143.4539794921875 - val_ssim: 0.8885484337806702 - val_rec: 0.39178550243377686 - val_Disc: 1.6321637630462646
+[2024-10-29 05:07:43,293][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:43,593][my_logger][INFO]: - 
+Epoch 7/210
+Ony Update G!
+[2024-10-29 05:07:44,109][my_logger][INFO]: -   loss_total: 115.20953369140625 - loss_ssim: 0.7126825451850891 - loss_rec: 0.30017662048339844 - loss_discriminator: 1.6402196884155273
+[2024-10-29 05:07:44,109][my_logger][INFO]: -   val_loss: 143.05911254882812 - val_ssim: 0.886084794998169 - val_rec: 0.39131852984428406 - val_Disc: 1.6319515705108643
+[2024-10-29 05:07:44,109][my_logger][INFO]: -   Time taken: 0.52s
+[2024-10-29 05:07:44,109][my_logger][INFO]: - 
+Epoch 8/210
+Ony Update G!
+[2024-10-29 05:07:44,624][my_logger][INFO]: -   loss_total: 113.28034973144531 - loss_ssim: 0.7007181644439697 - loss_rec: 0.2849212884902954 - loss_discriminator: 1.6470550298690796
+[2024-10-29 05:07:44,625][my_logger][INFO]: -   val_loss: 142.56954956054688 - val_ssim: 0.8830262422561646 - val_rec: 0.39091119170188904 - val_Disc: 1.6325287818908691
+[2024-10-29 05:07:44,625][my_logger][INFO]: -   Time taken: 0.52s
+[2024-10-29 05:07:44,625][my_logger][INFO]: - 
+Epoch 9/210
+Ony Update G!
+[2024-10-29 05:07:45,138][my_logger][INFO]: -   loss_total: 110.0041732788086 - loss_ssim: 0.6805357933044434 - loss_rec: 0.2516763508319855 - loss_discriminator: 1.6328595876693726
+[2024-10-29 05:07:45,139][my_logger][INFO]: -   val_loss: 142.23350524902344 - val_ssim: 0.8809255957603455 - val_rec: 0.39068448543548584 - val_Disc: 1.6331946849822998
+[2024-10-29 05:07:45,139][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:45,139][my_logger][INFO]: - 
+Epoch 10/210
+Ony Update G!
+[2024-10-29 05:07:45,651][my_logger][INFO]: -   loss_total: 108.03279876708984 - loss_ssim: 0.6681249141693115 - loss_rec: 0.26105669140815735 - loss_discriminator: 1.6390801668167114
+[2024-10-29 05:07:45,651][my_logger][INFO]: -   val_loss: 142.0899200439453 - val_ssim: 0.8800263404846191 - val_rec: 0.3907262086868286 - val_Disc: 1.6336584091186523
+[2024-10-29 05:07:45,652][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:45,652][my_logger][INFO]: - 
+Epoch 11/210
+Ony Update G!
+[2024-10-29 05:07:46,163][my_logger][INFO]: -   loss_total: 111.50404357910156 - loss_ssim: 0.6895884275436401 - loss_rec: 0.2952759861946106 - loss_discriminator: 1.6311285495758057
+[2024-10-29 05:07:46,163][my_logger][INFO]: -   val_loss: 142.046142578125 - val_ssim: 0.8797497153282166 - val_rec: 0.3911583423614502 - val_Disc: 1.633615255355835
+[2024-10-29 05:07:46,163][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:46,471][my_logger][INFO]: - 
+Epoch 12/210
+Ony Update G!
+[2024-10-29 05:07:46,982][my_logger][INFO]: -   loss_total: 112.78245544433594 - loss_ssim: 0.6974987983703613 - loss_rec: 0.3050712049007416 - loss_discriminator: 1.6331169605255127
+[2024-10-29 05:07:46,982][my_logger][INFO]: -   val_loss: 142.1293182373047 - val_ssim: 0.8802635669708252 - val_rec: 0.3920444846153259 - val_Disc: 1.6334095001220703
+[2024-10-29 05:07:46,982][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:46,982][my_logger][INFO]: - 
+Epoch 13/210
+Ony Update G!
+[2024-10-29 05:07:47,491][my_logger][INFO]: -   loss_total: 110.0819091796875 - loss_ssim: 0.680772066116333 - loss_rec: 0.27987194061279297 - loss_discriminator: 1.6450458765029907
+[2024-10-29 05:07:47,491][my_logger][INFO]: -   val_loss: 141.9795379638672 - val_ssim: 0.8793254494667053 - val_rec: 0.3922944664955139 - val_Disc: 1.6334104537963867
+[2024-10-29 05:07:47,491][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:47,491][my_logger][INFO]: - 
+Epoch 14/210
+Ony Update G!
+[2024-10-29 05:07:48,003][my_logger][INFO]: -   loss_total: 105.59844207763672 - loss_ssim: 0.6529807448387146 - loss_rec: 0.25017139315605164 - loss_discriminator: 1.642632007598877
+[2024-10-29 05:07:48,003][my_logger][INFO]: -   val_loss: 141.77394104003906 - val_ssim: 0.8780404925346375 - val_rec: 0.3921298384666443 - val_Disc: 1.6338037252426147
+[2024-10-29 05:07:48,003][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:48,003][my_logger][INFO]: - 
+Epoch 15/210
+Ony Update G!
+[2024-10-29 05:07:48,516][my_logger][INFO]: -   loss_total: 109.29579162597656 - loss_ssim: 0.6757251024246216 - loss_rec: 0.30114325881004333 - loss_discriminator: 1.6368093490600586
+[2024-10-29 05:07:48,517][my_logger][INFO]: -   val_loss: 141.77374267578125 - val_ssim: 0.8780362010002136 - val_rec: 0.3925166726112366 - val_Disc: 1.6338701248168945
+[2024-10-29 05:07:48,517][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:48,517][my_logger][INFO]: - 
+Epoch 16/210:
+Update D!
+[2024-10-29 05:07:49,791][my_logger][INFO]: -   loss_total: 107.00064086914062 - loss_ssim: 0.6617946624755859 - loss_rec: 0.25364330410957336 - loss_discriminator: 1.6182440519332886
+[2024-10-29 05:07:49,791][my_logger][INFO]: -   val_loss: 141.61129760742188 - val_ssim: 0.877190887928009 - val_rec: 0.39304137229919434 - val_Disc: 1.578222393989563
+[2024-10-29 05:07:49,792][my_logger][INFO]: -   Time taken: 1.27s
+[2024-10-29 05:07:50,102][my_logger][INFO]: - 
+Epoch 17/210
+Ony Update G!
+[2024-10-29 05:07:50,615][my_logger][INFO]: -   loss_total: 109.1487808227539 - loss_ssim: 0.675212562084198 - loss_rec: 0.26878952980041504 - loss_discriminator: 1.5844489336013794
+[2024-10-29 05:07:50,615][my_logger][INFO]: -   val_loss: 141.3572998046875 - val_ssim: 0.875605583190918 - val_rec: 0.3929356038570404 - val_Disc: 1.5777603387832642
+[2024-10-29 05:07:50,615][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:50,615][my_logger][INFO]: - 
+Epoch 18/210
+Ony Update G!
+[2024-10-29 05:07:51,125][my_logger][INFO]: -   loss_total: 109.80757141113281 - loss_ssim: 0.6793422102928162 - loss_rec: 0.2749640643596649 - loss_discriminator: 1.565717339515686
+[2024-10-29 05:07:51,125][my_logger][INFO]: -   val_loss: 141.2017059326172 - val_ssim: 0.8746340870857239 - val_rec: 0.3927168846130371 - val_Disc: 1.5779913663864136
+[2024-10-29 05:07:51,125][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:51,125][my_logger][INFO]: - 
+Epoch 19/210
+Ony Update G!
+[2024-10-29 05:07:51,651][my_logger][INFO]: -   loss_total: 105.72879028320312 - loss_ssim: 0.6540406346321106 - loss_rec: 0.25484782457351685 - loss_discriminator: 1.5529539585113525
+[2024-10-29 05:07:51,651][my_logger][INFO]: -   val_loss: 141.11534118652344 - val_ssim: 0.8740936517715454 - val_rec: 0.39269953966140747 - val_Disc: 1.578237771987915
+[2024-10-29 05:07:51,651][my_logger][INFO]: -   Time taken: 0.53s
+[2024-10-29 05:07:51,651][my_logger][INFO]: - 
+Epoch 20/210
+Ony Update G!
+[2024-10-29 05:07:52,163][my_logger][INFO]: -   loss_total: 110.05282592773438 - loss_ssim: 0.6807101964950562 - loss_rec: 0.2987228333950043 - loss_discriminator: 1.5614479780197144
+[2024-10-29 05:07:52,163][my_logger][INFO]: -   val_loss: 141.161865234375 - val_ssim: 0.8743817210197449 - val_rec: 0.39318516850471497 - val_Disc: 1.5779368877410889
+[2024-10-29 05:07:52,163][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:52,163][my_logger][INFO]: - 
+Epoch 21/210
+Ony Update G!
+[2024-10-29 05:07:52,675][my_logger][INFO]: -   loss_total: 105.64048767089844 - loss_ssim: 0.6533606052398682 - loss_rec: 0.27124249935150146 - loss_discriminator: 1.554596185684204
+[2024-10-29 05:07:52,675][my_logger][INFO]: -   val_loss: 141.24578857421875 - val_ssim: 0.8749032616615295 - val_rec: 0.3937141001224518 - val_Disc: 1.5776009559631348
+[2024-10-29 05:07:52,676][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:52,955][my_logger][INFO]: - 
+Epoch 22/210
+Ony Update G!
+[2024-10-29 05:07:53,478][my_logger][INFO]: -   loss_total: 105.22126770019531 - loss_ssim: 0.6507178544998169 - loss_rec: 0.2671349048614502 - loss_discriminator: 1.571688175201416
+[2024-10-29 05:07:53,478][my_logger][INFO]: -   val_loss: 141.22312927246094 - val_ssim: 0.874761700630188 - val_rec: 0.3937649130821228 - val_Disc: 1.5774807929992676
+[2024-10-29 05:07:53,478][my_logger][INFO]: -   Time taken: 0.52s
+[2024-10-29 05:07:53,478][my_logger][INFO]: - 
+Epoch 23/210
+Ony Update G!
+[2024-10-29 05:07:53,990][my_logger][INFO]: -   loss_total: 106.7005615234375 - loss_ssim: 0.6598869562149048 - loss_rec: 0.2836678922176361 - loss_discriminator: 1.5565016269683838
+[2024-10-29 05:07:53,990][my_logger][INFO]: -   val_loss: 141.18504333496094 - val_ssim: 0.874523401260376 - val_rec: 0.3937474489212036 - val_Disc: 1.5776251554489136
+[2024-10-29 05:07:53,990][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:53,990][my_logger][INFO]: - 
+Epoch 24/210
+Ony Update G!
+[2024-10-29 05:07:54,502][my_logger][INFO]: -   loss_total: 111.59700012207031 - loss_ssim: 0.6902812719345093 - loss_rec: 0.3065974712371826 - loss_discriminator: 1.5681742429733276
+[2024-10-29 05:07:54,502][my_logger][INFO]: -   val_loss: 141.31103515625 - val_ssim: 0.8753060102462769 - val_rec: 0.3944622278213501 - val_Disc: 1.5774166584014893
+[2024-10-29 05:07:54,502][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:54,502][my_logger][INFO]: - 
+Epoch 25/210
+Ony Update G!
+[2024-10-29 05:07:55,011][my_logger][INFO]: -   loss_total: 107.47735595703125 - loss_ssim: 0.6647418737411499 - loss_rec: 0.2890969514846802 - loss_discriminator: 1.5434834957122803
+[2024-10-29 05:07:55,011][my_logger][INFO]: -   val_loss: 141.3563690185547 - val_ssim: 0.8755868077278137 - val_rec: 0.39495015144348145 - val_Disc: 1.5770978927612305
+[2024-10-29 05:07:55,011][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:55,011][my_logger][INFO]: - 
+Epoch 26/210
+Ony Update G!
+[2024-10-29 05:07:55,519][my_logger][INFO]: -   loss_total: 103.38605499267578 - loss_ssim: 0.6393905878067017 - loss_rec: 0.2510477304458618 - loss_discriminator: 1.5646066665649414
+[2024-10-29 05:07:55,519][my_logger][INFO]: -   val_loss: 141.29649353027344 - val_ssim: 0.8752121329307556 - val_rec: 0.3947814404964447 - val_Disc: 1.577646255493164
+[2024-10-29 05:07:55,520][my_logger][INFO]: -   Time taken: 0.51s
+[2024-10-29 05:07:55,800][my_logger][INFO]: - 
+Epoch 27/210
+Ony Update G!
